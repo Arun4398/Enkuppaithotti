@@ -1,0 +1,296 @@
+html {
+    scroll-behavior: smooth;
+  }
+header,main
+{
+    background-image: url(back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+header
+{ 
+    overflow:hidden; 
+    width:100%;
+} 
+#logo img
+{
+    float:left;
+    position: absolute;
+    margin-left:5%;
+    margin-top:1%;
+    width:9%;
+    height: auto;
+}
+#logotext
+{
+    float:left;
+    margin-top:3%; 
+    margin-left:13%;
+    font-family: cursive;
+    color:cornsilk;
+    text-shadow: 2px 2px  black;
+    font-size:2vw; 
+    font-weight: 400;
+}
+#logotext span
+{
+    font-size:1.5vw; 
+    font-weight: 600;
+}
+#nav
+{ 
+	float: right; 
+    margin-top:2%; 
+    margin-right:5%;
+} 	
+#nav ul
+{ 
+	text-align:left; 
+	background:transparent;
+	font-size:1.5vw; 
+} 
+#nav li
+{ 
+	display:inline;
+	padding: none; 
+	margin: none; 
+    outline:none;
+    font-family: cursive;
+    
+} 
+#nav li a
+{ 
+	display:inline; 
+	padding: 0em 1em; 
+	text-decoration: none; 
+	font-weight: 600; 
+	text-transform: uppercase; 
+    line-height: 50px;
+    -webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s; 
+	color:cornsilk;
+} 
+#nav li:hover a
+{ 
+	color: black;
+	text-decoration: none; 
+} 
+#nav .Subscribe 
+{
+    text-decoration:none; 
+	text-transform: uppercase; 
+    text-align: center; 
+    font-family: cursive;
+    font-weight: 600; 
+	display: inline-block; 
+	font-size:1.5vw;
+	color: cornsilk;
+	-webkit-transition-duration: 0.2s; 
+	transition-duration: 0.2s; 
+    cursor: pointer; 
+    
+}
+#nav .Subscribe:hover 
+{   
+    border-radius: 8px;
+	padding: 0.5vw 1.5vw;
+	margin: 4px 2px; 
+	background-color: white; 
+	color:black
+} 
+#welcome 
+{   
+    overflow: hidden; 
+    height:100%;
+    margin: 0px auto;
+    text-align: center; 
+} 	
+#welcome .title
+{ 
+	margin-top:50px; 
+	padding: 20px; 
+    font-family:cursive;
+	color:white;
+    font-size:3vw;
+    text-shadow: 3px 3px  black;
+    
+} 
+#welcome p
+{ 
+	margin-bottom: 40px; 
+	font-size:1.5vw;
+    color:red;
+    font-family: cursive;
+    text-shadow: black;
+} 
+
+#welcome .button
+{
+    text-decoration:none; 
+    display: inline-block; 
+    font-family: cursive;
+	font-size:1.5vw;
+    background-color:black;
+    font-weight: 400;
+	color: white; 
+	border-radius: 16px;
+	padding: 8px 16px; 
+	margin: 4px 2px; 
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s; 
+	cursor: pointer; 
+}
+#welcome .button:hover
+{ 
+	background-color: white; 
+	color:black; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+} 
+#welcome .button:active
+{
+    transform: translateY(4px);
+}
+.container
+{	 
+	margin:auto; 
+	width:1200px;
+} 
+#section-2
+{ 
+	overflow: hidden; 
+	margin-top:15%; 
+	padding-top: 1em; 
+	width:100%;
+	color:black;
+} 
+#Aimg
+{
+    float: left; 
+    width: 100%
+}
+#Atext
+{
+    position: absolute;
+    float: left; 
+    width:80%;
+    left:10%;
+    font-size: 1.5vw;
+    font-family: cursive;
+    text-align:justify;
+}
+#Atext h1
+{
+    text-align:center;
+    font-size:2vw;
+    font-family: cursive;
+    color:black;
+   
+}
+#Atext span
+{
+    font-family: cursive;
+    font-size:1.3vw;
+    font-weight: bolder;
+    line-height:1.2;
+}
+#Rimg
+{
+   position: absolute;
+   width: 20%; 
+   padding-top:20%;
+   padding-left:10%;
+   float: left; 
+}
+#Rtext
+{ 
+    margin-top:22%;
+    line-height:1.5;
+    float: left; 
+    width: 80%; 
+    margin-left:-80%;
+    font-size: 1.3vw;
+    font-family: cursive;
+    font-weight: bolder;
+}
+#footer
+{
+
+    background-color:#D0D3D4;
+    color: white;
+    overflow: hidden; 
+    font-family: cursive;
+    text-align: center;
+    padding-top:5%; 
+    margin-top: -1%;
+    width:100%;   
+    
+}
+#footer span
+{
+    margin-right:28%;
+    font-size:1.5vw;
+    color: black;
+
+}
+#footer .email
+{
+    border: gray;
+    background-color: #fff;
+    color:black;
+    font-size: 1.5vw;
+    padding-right:12%;
+    padding-top:0.6%;
+    padding-bottom:0.6%;
+}
+.btn
+{
+    text-decoration:none; 
+    margin-left:1%;
+    font-weight: 100; 
+    display: inline-block; 
+	font-size:1.5vw;
+    background-color:#E74C3C;
+    border: 0.1vw solid #e7e7e7;
+	color:black;
+	padding: 0.5vw 2vw; 
+	-webkit-transition-duration: 0.2s; 
+	transition-duration: 0.2s; 
+    cursor: pointer; 
+}
+.btn:hover 
+{ 
+    opacity:50%;
+} 
+.contact 
+{
+    margin-top:2%;
+    text-decoration:none; 
+    font-weight: 600; 
+	display: inline-block; 
+	font-size:1.5vw;
+	background-color:skyblue;
+	color:black;
+	border-radius: 6px;
+	padding: 0.5vw 2vw; 
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s; 
+    cursor: pointer;
+
+}
+.contact:hover 
+{ 
+	opacity:60%;
+} 
+#footer p
+{
+line-height:2;
+text-align: center;
+font-size:1.3vw;
+color: black;
+}
+@media screen and (max-width: 800px) {
+    header,main,footer {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}

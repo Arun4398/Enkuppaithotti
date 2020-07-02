@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+    font-family: cursive;
+  }
+body
+{
+    background-color:black;
+   
+}
+main
+{
+    margin-left:122px;
+    margin-right:122px;
+}
+header
+{ 
+    overflow:hidden;    
+} 
+#logo
+{
+    float:left;
+    margin-top:2%; 
+    margin-left:5%;
+}
+#logotext
+{
+    float:left;
+    margin-top:2%; 
+    margin-left:0;
+    font-family: cursive;
+    color:white;
+    font-size:2vw; 
+    font-weight: 400;
+}
+#logotext span
+{
+    font-size:1.5vw; 
+    font-weight: 600;
+}
+abbr
+{
+    text-decoration: none;
+}
+#close a 
+{
+    text-decoration: none;
+    font-size:3vw;
+    margin-left:60%;
+    color:white;
+    -webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s; 
+}
+#close a:hover
+{
+    color: red;
+}
+.img1
+{ 
+ position:relative;
+ margin-top:5%;
+ margin-right:40%;
+}
+.p1
+{
+    position: absolute;
+    top:10%;
+    left:10%;
+    bottom:10%;
+    right:10%;
+    color: white;
+    line-height:2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px 4px black;
+
+
+}
+.p1 span
+{
+    margin-left:40%;
+}
+.img2
+{ 
+ position:relative;
+ margin-left:50%;
+ margin-top:-46.5%;
+
+}
+.p2
+{
+    position: absolute;
+    top:10%;
+    left:10%;
+    bottom:10%;
+    right:10%;
+    color:black;
+    text-shadow: 1px 1px 3px white;
+    line-height:2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.p2 span
+{
+    margin-left:60%;
+}
+.img3
+{ 
+ position:relative;
+ width:50%;
+ height:auto;
+ margin-top:5%;
+}
